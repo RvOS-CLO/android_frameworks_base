@@ -156,6 +156,7 @@ cc_defaults {
         "-fno-omit-frame-pointer",
         "-marm",
         "-mapcs",
+        "-O3",
     ],
 }
 
