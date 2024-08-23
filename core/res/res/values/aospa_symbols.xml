@@ -72,8 +72,9 @@
     <!-- Cycle through ringer modes -->
     <java-symbol type="string" name="volume_dialog_ringer_guidance_normal" />
 
-    <!-- PropImitationHooks -->
+    <!-- Prop/KeyboxImitationHooks -->
     <java-symbol type="array" name="config_certifiedBuildProperties" />
+    <java-symbol type="array" name="config_certifiedKeybox" />
     <java-symbol type="string" name="config_stockFingerprint" />
     <java-symbol type="string" name="config_netflixSpoofModel" />
 
