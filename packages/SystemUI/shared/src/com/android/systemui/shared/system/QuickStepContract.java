@@ -38,7 +38,7 @@ import java.util.StringJoiner;
 public class QuickStepContract {
     // Fully qualified name of the Launcher activity.
     public static final String LAUNCHER_ACTIVITY_CLASS_NAME =
-            "co.aospa.launcher.ParanoidLauncher";
+            "co.rvos.launcher.RvOSLauncher";
 
     public static final String KEY_EXTRA_SYSUI_PROXY = "extra_sysui_proxy";
     public static final String KEY_EXTRA_WINDOW_CORNER_RADIUS = "extra_window_corner_radius";
