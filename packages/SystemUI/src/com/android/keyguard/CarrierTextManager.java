@@ -892,7 +892,7 @@ public class CarrierTextManager {
         FiveGServiceState fiveGServiceState =
                 mFiveGServiceClient.getCurrentServiceState(slotIndex);
         if ((networkType == TelephonyManager.NETWORK_TYPE_NR)
-                || (fiveGServiceState.isNrIconTypeValid() && isDataRegisteredOnLte(subId))) {
+                || (fiveGServiceState.isNrIconTypeValid())) {
             if (fiveGServiceState.getNrIconType() == NrIconType.TYPE_5G_UWB
                     && mContext.getResources().getBoolean(
                     com.android.settingslib.R.bool.config_display_5g_a)) {
